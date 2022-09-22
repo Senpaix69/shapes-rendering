@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: plum;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-blend-mode: screen;
+  border-top: 2px solid rgb(250, 183, 231);
+  border-left: 2px solid rgb(250, 183, 231);
+  box-shadow: 4px 4px 4px 0px rgb(207, 37, 207);
+  border-radius: 20px;
+  min-width: 350px;
+  min-height: 350px;
+  max-width: 500px;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  transition: all;
+  transition-duration: 1000ms;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: rgb(184, 58, 148);
+}
+
+h2 {
+  color: rgb(255, 198, 239);
+  text-shadow: 3px 2px 2px rgb(192, 5, 192);
+}
+
+.square-image {
+  background-color: navajowhite;
+  border-top: 2px solid rgb(250, 183, 231);
+  border-left: 2px solid rgb(250, 183, 231);
+  box-shadow: 4px 4px 4px 0px rgb(207, 37, 207);
+}
+
+.circle-image {
+  background-color: aquamarine;
+  border-radius: 100%;
+  border: 3px solid plum;
+  box-shadow: 4px 4px 4px 0px rgb(207, 37, 207);
+}
+
+.triangle-image {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid red;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-top: 2px solid rgb(250, 183, 231);
+  border-left: 2px solid rgb(250, 183, 231);
+  box-shadow: 4px 4px 4px 0px rgb(207, 37, 207);
+}
+
+button:hover {
+  background-color: rgb(159, 23, 121);
+  color: azure;
+}
+
+.square {
+  background-color: blanchedalmond;
+  color: black;
+  border: 1px rgb(246, 185, 95);
+}
+
+.circle {
+  background-color: aquamarine;
+  color: black;
+  border: 1px rgb(55, 203, 154);
+}
+
+.triangle {
+  background-color: red;
+  color: white;
+  border: 1px rgb(245, 141, 141);
+}
+
+.triangle-title {
+  margin-top: 300px;
+  color: plum;
+}
